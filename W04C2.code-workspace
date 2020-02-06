@@ -23,6 +23,15 @@
 					"wholeMatch": false
 				},
 				"color": "yellow"
+			},
+			{
+				"pattern": {
+					"type": "string",
+					"expression": "function Welcome(props) {\r\n    return <h1>Hello, {props.name}</h1>;\r\n  }\r\n\r\nReactDOM.render(\r\n    <Welcome name=\"Sara\" />,\r\n    document.getElementById('root')\r\n);",
+					"ignoreCase": false,
+					"wholeMatch": false
+				},
+				"color": "yellow"
 			}
 		]
 	}

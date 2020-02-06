@@ -6,4 +6,3 @@ ReactDOM.render(
     <Welcome name="Sara" />,
     document.getElementById('root')
 );
-  
