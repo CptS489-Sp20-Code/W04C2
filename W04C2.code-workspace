@@ -18,34 +18,7 @@
 			{
 				"pattern": {
 					"type": "string",
-					"expression": "unction Welcome(props) {\r\n    return <h1>Hello, {props.name}</h1>;\r\n  }\r\n\r\n  ReactDOM.render(\r\n    <Welcome name=\"Sara\" />,\r\n    document.getElementById('root')\r\n  );",
-					"ignoreCase": false,
-					"wholeMatch": false
-				},
-				"color": "yellow"
-			},
-			{
-				"pattern": {
-					"type": "string",
-					"expression": "const Page = () => {\r\n    return <React.Fragment>\r\n        <Header />\r\n        <Button/>\r\n    </React.Fragment>\r\n}\r\n\r\nconst Header = () => {\r\n    return <h1>Hello World in React.js</h1>\r\n}\r\n\r\nconst Button = () => {\r\n    return <button className=\"btn btn-primary\">\r\n        <span className=\"fa fa-plus\"></span>&nbsp;I'm a React Button!</button>\r\n}\r\n\r\nReactDOM.render(<Page />, document.getElementById('root'));",
-					"ignoreCase": false,
-					"wholeMatch": false
-				},
-				"color": "yellow"
-			},
-			{
-				"pattern": {
-					"type": "string",
-					"expression": "<!-- Bootstrap 4-->\r\n    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\">\r\n    <!-- FontAwesome -->\r\n    <link href=\"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\" integrity=\"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN\" crossorigin=\"anonymous\">\r\n",
-					"ignoreCase": false,
-					"wholeMatch": false
-				},
-				"color": "yellow"
-			},
-			{
-				"pattern": {
-					"type": "string",
-					"expression": "/scripts/script4.js",
+					"expression": "function Welcome(props) {\r\n    return <h1>Hello, {props.name}</h1>;\r\n  }\r\n\r\nReactDOM.render(\r\n    <Welcome name=\"Sara\" />,\r\n    document.getElementById('root')\r\n);\r\n  ",
 					"ignoreCase": false,
 					"wholeMatch": false
 				},
