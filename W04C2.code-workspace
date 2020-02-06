@@ -4,5 +4,17 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"textmarker.savedHighlights": [
+			{
+				"pattern": {
+					"type": "string",
+					"expression": "class Hello extends React.Component {\r\n    render() {\r\n      return React.createElement('h1', null, 'Hello World');\r\n    }\r\n  }\r\n  \r\n  ReactDOM.render(\r\n    React.createElement(Hello),\r\n    document.getElementById('root')\r\n  );",
+					"ignoreCase": false,
+					"wholeMatch": false
+				},
+				"color": "yellow"
+			}
+		]
+	}
 }
