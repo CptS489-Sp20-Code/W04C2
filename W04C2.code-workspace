@@ -9,7 +9,7 @@
 			{
 				"pattern": {
 					"type": "string",
-					"expression": "<script src=\"https://unpkg.com/babel-standalone@6/babel.min.js\"></script>",
+					"expression": "const Header = () => {\r\n    return <h1>Hello World in React.js</h1>\r\n}\r\n\r\nconst Button = () => {\r\n    return <button>I'm a React Button!</button>\r\n}\r\n\r\nReactDOM.render(<Header />, document.getElementById('root'));\r\nReactDOM.render(<Button />, document.getElementById('root2'));",
 					"ignoreCase": false,
 					"wholeMatch": false
 				},
@@ -18,7 +18,7 @@
 			{
 				"pattern": {
 					"type": "string",
-					"expression": "<script src=\"/scripts/script2.js\" type=\"text/babel\"></script>",
+					"expression": "\"/scripts/script3.js\"",
 					"ignoreCase": false,
 					"wholeMatch": false
 				},
@@ -27,7 +27,7 @@
 			{
 				"pattern": {
 					"type": "string",
-					"expression": "const Hello = () => {\r\n    return <h1>Hello World</h1>;\r\n}\r\n\r\nReactDOM.render(\r\n<Hello />,\r\ndocument.getElementById('root')\r\n);",
+					"expression": "<div id=\"root2\"></div>",
 					"ignoreCase": false,
 					"wholeMatch": false
 				},
